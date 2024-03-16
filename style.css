@@ -30,6 +30,51 @@ body {
     font-weight: 600;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    min-height: 300px;
+    background-color: #1f2937;
+}
+
+.hero-info {
+    width: 450px;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+
+#hero-second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+button {
+    background: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ddd;
+}
+
+.hero-image {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
 ul {
     display: flex;
     list-style: none;
