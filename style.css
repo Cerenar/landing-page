@@ -16,6 +16,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -75,14 +87,47 @@ button {
     max-width: 100%;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 24px;
+.random-info {
+    height: 300px;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 48px;
 }
 
-a {
-    text-decoration: none;
+.info-title {
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.thumbnail {
+    width: 200px;
     font-size: 18px;
-    color: #e5e7eb;
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 200px;
+    transition: transform .1s;
+}
+
+.image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.thumbnail img:hover {
+    transform: scale(3);
 }
