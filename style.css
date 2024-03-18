@@ -34,6 +34,7 @@ a {
     align-items: center;
     padding: 16px;
     background-color: #1f2937;
+    gap: 430px;
 }
 
 .logo {
@@ -85,10 +86,11 @@ button {
 
 .hero-image img {
     max-width: 100%;
+    border-radius: 20px;
 }
 
 .random-info {
-    height: 300px;
+    min-height: 300px;
     text-align: center;
     text-wrap: wrap;
     padding: 48px;
@@ -130,4 +132,68 @@ button {
 
 .thumbnail img:hover {
     transform: scale(3);
+}
+
+.quote-block {
+    min-height: 400px;
+    background-color: #e5e7eb;
+    text-wrap: wrap;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    width: 800px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.speaker {
+    text-align: right;
+    width: 750px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.call-to-action {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-wrapper {
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 32px 96px;
+    border-radius: 12px;
+}
+
+.action-text {
+    color: #f9faf8;
+}
+
+.action-button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    min-height: 65px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
